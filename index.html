@@ -1,71 +1,134 @@
 <!doctype html>
-section { flex:1; min-width:300px; }
-.meta { margin-top:50px; }
-.meta-list { list-style:none; padding:0; }
-.meta-list li { margin-bottom:6px; }
-</style>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Claudiu-Eduard Nastasie</title>
+
+  <style>
+    section { 
+      flex: 1; 
+      min-width: 300px; 
+    }
+
+    .meta { 
+      margin-top: 10px; 
+    }
+
+    .meta-list { 
+      list-style: none; 
+      padding: 0; 
+    }
+
+    .meta-list li { 
+      margin-bottom: 6px; 
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, footer {
+      background: #f4f4f4;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    aside {
+      max-width: 300px;
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 6px 10px;
+      margin-right: 5px;
+      border: 1px solid #333;
+      text-decoration: none;
+      color: #333;
+      font-size: 14px;
+    }
+  </style>
 </head>
+
 <body>
 
-
 <header>
-<h1>Claudiu Eduard Nastasie</h1>
-<p>Portofoliu personal — istorie și programare</p>
+  <h1>Claudiu Eduard Nastasie</h1>
+  <p>Portofoliu personal — istorie și programare</p>
 </header>
 
-
 <main>
-<section id="proiecte">
-<h2>Proiecte</h2>
 
+  <section id="proiecte">
+    <h2>Proiecte</h2>
 
-<article class="project">
-<h3>Site personal</h3>
-<p>Salut, numele meu este Claudiu</p>
-<div class="meta">
-<a class="btn" href="https://github.com/ClaudiuN1998/My-projects" target="_blank" rel="noopener">Vezi cod</a>
-<a class="btn" href="#" aria-disabled="true">Live</a>
-</div>
-</article>
+    <article class="project">
+      <h3>Site personal</h3>
+      <p>Salut, numele meu este Claudiu</p>
 
+      <div class="meta">
+        <a class="btn" href="https://github.com/ClaudiuN1998/My-projects" target="_blank" rel="noopener">Vezi cod</a>
+        <a class="btn" href="#" aria-disabled="true">Live</a>
+      </div>
+    </article>
+  </section>
 
-</section>
+  <section id="despre">
+    <h2>Despre mine</h2>
+    <p>Sunt Claudiu — pasionat de istorie, literatură și programare.</p>
+  </section>
 
+  <aside>
 
-<section id="despre">
-<h2>Despre mine</h2>
-<p>Sunt Claudiu — pasionat de istorie, literatură și programare.</p>
-</section>
+    <div class="card">
+      <h3>Contact &amp; CV</h3>
+      <ul class="meta-list">
+        <li><strong>Email:</strong> <a href="mailto:id_claudiu@yahoo.com">id_claudiu@yahoo.com</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/ClaudiuN1998" target="_blank" rel="noopener">github.com/ClaudiuN1998</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/claudiu-nastasie-236537343/" target="_blank" rel="noopener">linkedin.com/in/claudiu-nastasie-236537343</a></li>
+      </ul>
 
+      <p>Descarcă CV-ul meu:</p>
+      <p>
+        <a class="btn" href="claudiu_nastasie_CV.pdf" target="_blank" rel="noopener">
+          Descarcă CV (PDF)
+        </a>
+      </p>
+    </div>
 
-<aside>
-<div class="card">
-<h3>Contact &amp; CV</h3>
-<ul class="meta-list">
-<li><strong>Email:</strong> <a href="mailto:id_claudiu@yahoo.com">id_claudiu@yahoo.com</a></li>
-<li><strong>GitHub:</strong> <a href="https://github.com/ClaudiuN1998" target="_blank" rel="noopener">github.com/ClaudiuN1998</a></li>
-<li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/claudiu-nastasie-236537343/" target="_blank" rel="noopener">linkedin.com/in/claudiu-nastasie-236537343</a></li>
-</ul>
-<p>Descarcă CV-ul meu:</p>
-<p><a class="btn" href="claudiu_nastasie_CV.pdf" target="_blank" rel="noopener">Descarcă CV (PDF)</a></p>
-</div>
+    <div class="card">
+      <h3>Contact rapid</h3>
+      <p>Dacă vrei să vezi codul meu sau proiectele, găsești linkurile pe GitHub.</p>
+      <p>
+        <a class="btn" href="https://github.com/ClaudiuN1998" target="_blank" rel="noopener">
+          Profil GitHub
+        </a>
+      </p>
+    </div>
 
-
-<div class="card">
-<h3>Contact rapid</h3>
-<p>Dacă vrei să vezi codul meu sau proiectele, găsești linkurile pe GitHub.</p>
-<p><a class="btn" href="https://github.com/ClaudiuN1998" target="_blank" rel="noopener">Profil GitHub</a></p>
-</div>
-</aside>
-
+  </aside>
 
 </main>
 
-
 <footer>
-&copy; 2025 Claudiu Eduard Nastasie — Portofoliu. Codul sursă: <a href="https://github.com/ClaudiuN1998" target="_blank" rel="noopener">github.com/ClaudiuN1998</a>
+  &copy; 2025 Claudiu-Eduard Nastasie — Portofoliu. Codul sursă:
+  <a href="https://github.com/ClaudiuN1998" target="_blank" rel="noopener">
+    github.com/ClaudiuN1998
+  </a>
 </footer>
-
 
 </body>
 </html>
